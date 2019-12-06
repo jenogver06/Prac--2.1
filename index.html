@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario 1</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario 1</h1>
+    </header>
+    <main>
+        <section>
+            <fieldset>
+                <table style="width:100%">
+                    <tbody>
+                        <tr>
+                        <td>
+                            <p>Tratamiento:*<br>
+                            <input type="radio" name="p1" value="1">Sr.
+                            <input type="radio" name="p1" value="2">Sra.</p>
+                        <td>
+                            <p>Nombre:*<br> <input type="text" name="nombre" size="20"></p>
+                        </td>
+                        <td>
+                            <p>Apellido 1:*<br> <input type="text" name="apellido1" size="20"></p>
+                        </td>
+                        <td>
+                            <p>Apellido 2:<br> <input type="text" name="apellido2" size="20"></p>
+                        </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Tipo Doc:*<br>
+                                <select name="menu">
+                                    <option>D.N.I</option>
+                                    <option>N.I.E</option>
+                                </select></p>
+                            </td>
+                            <td><p>Nº Doc:*<br><input type="text" name="DOC" size="20"></p>
+                        </td>
+                            <td>
+                                <label for="start">Fecha de nacimiento: *<br></label>
+                                <input type="date" id="start" name="trip-start"
+                                       value="06-12-2019"
+                                       min="01-01-2019" max="31-12-2019">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><p>País de nacimiento: *<br>
+                                <select name="menu">
+                                    <option>ESPAÑA</option>
+                                    <option>FRANCIA</option>
+                                    <option>ITALIA</option>
+                                    <option>OTRO</option>
+                                </select></p>
+                            </td>
+                            <td><p>Nacionalidad: *<br>
+                                <select name="menu">
+                                    <option>ESPAÑA</option>
+                                    <option>FRANCIA</option>
+                                    <option>ITALIA</option>
+                                    <option>OTRO</option>
+                                </select></p>
+                            </td>
+                            <td><p>Segunda nacionalidad:<br>
+                                <select name="menu">
+                                    <option>Ninguna</option>
+                                    <option>ESPAÑA</option>
+                                    <option>FRANCIA</option>
+                                    <option>ITALIA</option>
+                                    <option>OTRO</option>
+                                </select></p>
+                            </td>
+                            <td><p>País residencia fiscal: *<br>
+                                <select name="menu">
+                                    <option>ESPAÑA</option>
+                                    <option>FRANCIA</option>
+                                    <option>ITALIA</option>
+                                    <option>OTRO</option>
+                                </select></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><p>Trabajo *<br>
+                                <select name="menu">
+                                    <option>Trabajador/a</option>
+                                    <option>Desempleado/a</option>
+                                    <option>Jubilado/a</option>
+                                </select>
+                            </p></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+        </section>
+    </main>
+</body>
+</html>
