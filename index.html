@@ -6,6 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Formulario 1</title>
 </head>
+<style type="text/css">
+      button{
+          float:right;
+          margin-right:0%;
+      }
+      table {
+          height: 40%;
+      }
+</style>
 <body>
     <header>
         <h1>Formulario 1</h1>
@@ -88,14 +97,108 @@
                                     <option>Trabajador/a</option>
                                     <option>Desempleado/a</option>
                                     <option>Jubilado/a</option>
-                                </select>
-                            </p></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                                </select></p>
+                            </td>
+                            <td><p>Tipo de Actividad* <br>
+                                <select name="menu">
+                                    <option>Tareas hogar</option>
+                                    <option>Estudiante</option>
+                                    <option>Desempelado</option>
+                                    <option>Jubilado</option>
+                                    <option>Pensionista</option>
+                                </select></p>
+                            </td>
+                            <td><p>Sector Profesional* <br><select name="menu">
+                                <option>No trabaja</option>
+                                <option>Banca</option>
+                                <option>Construcción</option>
+                                <option>Energía</option>
+                                <option>Industria</option>
+                                <option>Recursos humanos</option>
+                                <option>Servicios</option>
+                            </select></p>
+                        </td>
+                            <td><p>Empresa: *<br> <input type="text" name="Empresa"></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>Propósito de la cuenta: *<br><select name="menu">
+                                <option>Ahorro</option>
+                                <option>Gasto de empresa</option>
+                                <option>Compra Online</option>
+                                <option>Cuenta conjunta</option>
+                            </select></p>
+                            </td>
+                            <td>
+                                <p>Origen de sus ahorros: * <br><select name="menu">
+                                    <option>Nómina o pensión</option>
+                                    <option>Ahorro de siempre</option>
+                                </select></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><p>Tipo de vía* <br><select name="menu">
+                                    <option>CALLE</option>
+                                    <option>AVENIDA</option>
+                                    <option>CENTRO</option>
+                                </select></p>
+                            </td>
+                                <td><p>Dirección* <br><input type="text" name="direccion"></p>
+                                </td>
+                                <td><p>Número* <br> <input type="text" name="numero"></p>
+                                </td>
+                                <td><p>Piso <br> <input type="text" name="piso"></p>
+                                </td>
+                        </tr>
+                        <tr>
+                            <td><p>Urb./Pol./Otros <br><input type="text" name="urb"></p>
+                            </td>
+                            <td><p>Localidad* <br><input type="text" name="localidad"></p>
+                            </td>
+                            <td><p>Provincia*<br><select name="menu">
+                                <option>Valencia</option>
+                                <option>Madrid</option>
+                                <option>Barcelona</option>
+                            </select></p>
+                        </td>
+                            <td><p>Código postal* <br><input typer="text" name="provincia"></p>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
+                <table>
+                    <hr>
+                    <tbody>
+                        <tr>
+                            <td><p>Para ofrecerle un mejor servicio no sería útil conocer si posee en otra entidad:<br>
+                                <input type="checkbox" name="plan" id="Plan de pensiones">
+                                <label for="Plan de Pensiones">Plan de pensiones</label>
+                                <input type="checkbox" name="fondo" id="Fondos">
+                                <label for="Fondos">Fondos</label>
+                                <input type="checkbox" name="accion" id="Acciones">
+                                <label for="Acciones">Acciones</label>
+                                <input type="checkbox" name="hipoteca" id="Hipoteca">
+                                <label for="Hipoteca">Hipoteca</label>
+                                <input type="checkbox" name="prestamo" id="Préstamo">
+                                <label for="Préstamo">Préstamo</label>
+                                <input type="checkbox" name="seguro" id="Seguro de Vida">
+                                <label for="Seguro de Vida">Seguro de Vida</label></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr>
+                <p style="color:rgba(117, 117, 134, 0.651)">
+                Puede consultar en nuestra Web o solicitamos toda la <ins>Infomación <br>
+                Preconceptual</ins> de nuestros productos. Al pulsar "Continuar" está<br>
+                aceptando la <ins>Cláusula de Protección de datos</ins></p>
+                <p style="color:rgba(117, 117, 134, 0.651)">(*) Los campos marcados con asterico son obligatorios</p>
+                <button type="button">
+                <a href="form2.html">
+                <img src="img/Flecha naranja.png" alt="imagen" width="32" height="32">
+                Continuar
+                </button></a>
             </fieldset>
         </section>
     </main>
